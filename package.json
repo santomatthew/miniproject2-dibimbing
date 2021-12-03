@@ -1,0 +1,22 @@
+{
+  "name": "miniproject2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecommerce.js",
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-db": "node ./server/createDb.js",
+    "create-table": "node ./server/createTable.js",
+    "dev": "nodemon ecommerce.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
